@@ -61,6 +61,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The content of the zip-file can be found in the 'UCI HAR Dataset' directory in this repo.
 
+#### Technical Environment
+The data manipulation was done in the following environment:
+
+* Mac OS X Yosemite 10.10.1
+* RStudio 0.98.1087
+
 #### Relevant data for the tidy dataset
 The tidy dataset is called 'dataset_subject_activity_means.txt' and can be found in the root of the repo.
 

@@ -53,3 +53,9 @@ The data used for the tidy dataset can be found in the following files:
 * ./UCI HAR Dataset/activity_labels.txt (labels for activity)
 
 More information can be found in the [code book](CodeBook.md).
+
+## How to reproduce the results
+To reproduce the tidy dataset with the R-script in this repo, it is required that the files of the raw dataset are in the working directory and with the same folder structure as in this repo (e.g. ./UCI HAR Dataset/train/).
+
+You can then run the R-script 'run_analysis.R' within that environment. 
+This will result in a new file in the working directory called 'dataset_subject_activity_means.txt', which is the tidy dataset.
